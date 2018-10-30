@@ -1,0 +1,58 @@
+{
+  "nodes": [
+    {"name": "A1"},
+    {"name": "A2"},
+
+    {"name": "B1"},
+    {"name": "B2"},
+    {"name": "B3"},
+
+    {"name": "C1"},
+    {"name": "C2"},
+
+    {"name": "D1"},
+    {"name": "D2"},
+    {"name": "D3"},
+
+    {"name": "E1"},
+    {"name": "E2"},
+
+    {"name": "F1"},
+    {"name": "F2"},
+    {"name": "F3"},
+
+    {"name": "G1"},
+    {"name": "G2"}
+  ],
+  "links": [
+    {"source": "A1", "target": "B1"},
+    {"source": "A1", "target": "B2"},
+    {"source": "A2", "target": "B2"},
+    {"source": "A2", "target": "B3"},
+
+    {"source": "B1", "target": "C1"},
+    {"source": "B2", "target": "C1"},
+    {"source": "B2", "target": "C2"},
+    {"source": "B3", "target": "C2"},
+
+    {"source": "C1", "target": "D1"},
+    {"source": "C1", "target": "D2"},
+    {"source": "C2", "target": "D2"},
+    {"source": "C2", "target": "D3"},
+
+    {"source": "D1", "target": "E1"},
+    {"source": "D2", "target": "E1"},
+    {"source": "D2", "target": "E2"},
+    {"source": "D3", "target": "E2"},
+
+    {"source": "E1", "target": "F1"},
+    {"source": "E1", "target": "F2"},
+    {"source": "E2", "target": "F2"},
+    {"source": "E2", "target": "F3"},
+
+    {"source": "F1", "target": "G1"},
+    {"source": "F2", "target": "G1"},
+    {"source": "F2", "target": "G2"},
+    {"source": "F3", "target": "G2"}
+  ]
+}
